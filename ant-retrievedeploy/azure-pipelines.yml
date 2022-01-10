@@ -39,8 +39,8 @@ steps:
 - script: |
     echo ***All Extract Successfull!!!***
     echo ***Starting copying from VM to Repo****
-    git config --local user.email "myemail@gmail.com"
-    git config --local user.name "Rohit"
+    git config --local user.email "pmanishk7652@gmail.com"
+    git config --local user.name "pmanishk"
     git config --local http.extraheader "AUTHORIZATION: bearer $(System.AccessToken)"
     git add --all
     git commit -m "commit after extract"
